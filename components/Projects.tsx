@@ -12,7 +12,7 @@ const projects = [
   {
     title: "Megakino URL Finder",
     description: "Der megakino_url_finder ist ein Tool, das automatisch die URL von Megakino-Seiten durchsucht und extrahiert, um Nutzern schnellen Zugriff auf Filme und Serien zu ermöglichen.",
-    image: "/megakino_url_finder.png?height=300&width=400",
+    image: "/megakino.png?height=300&width=400",
     technologies: ["JavaScript", "CSS", "HTML"],
     githubUrl: "https://github.com/Fr3d33/megakino_url_finder",
   },
