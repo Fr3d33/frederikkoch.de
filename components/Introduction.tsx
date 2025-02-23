@@ -5,7 +5,7 @@ const Introduction = () => {
     <section id="about" className="min-h-[calc(100vh-4rem)] flex flex-col justify-center">
       <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in text-foreground">Hi, I'm Frederik Koch</h1>
       <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-in animation-delay-200">
-        A passionate developer crafting elegant solutions to complex problems.
+        I'm a 14-year-old tech enthusiast with experience in programming, hardware tinkering, and engineering. I work on software, build electronics, and explore new technologies.
       </p>
       <a
         href="#projects"

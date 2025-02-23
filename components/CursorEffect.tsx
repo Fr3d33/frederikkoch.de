@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { useTheme } from "next-themes"
+import "../styles/CursorEffect.css"
 
 const CursorEffect = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 })
@@ -27,13 +28,10 @@ const CursorEffect = () => {
 
   return (
     <div
-      className="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute"
-      style={{
-        background: `radial-gradient(600px at ${position.x}px ${position.y}px, rgba(255,255,255,0.06), transparent 80%)`,
-      }}
+      className="cursor-effect"
+      style={{ "--cursor-background": `radial-gradient(600px at ${position.x}px ${position.y}px, rgba(255,255,255,0.06), transparent 80%)` } as React.CSSProperties}
     />
   )
 }
 
 export default CursorEffect
-

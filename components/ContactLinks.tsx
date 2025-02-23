@@ -4,16 +4,16 @@ import { Github, Linkedin, Mail, MessageCircle } from "lucide-react"
 import { useState } from "react"
 
 const contactLinks = [
-  { name: "GitHub", icon: Github, url: "https://github.com/frederiksample" },
-  { name: "LinkedIn", icon: Linkedin, url: "https://linkedin.com/in/frederiksample" },
-  { name: "Discord", icon: MessageCircle, url: "https://discordapp.com/users/frederiksample" },
+  { name: "GitHub", icon: Github, url: "https://github.com/Fr3d33" },
+  { name: "LinkedIn", icon: Linkedin, url: "https://www.linkedin.com/in/frederik-koch-a82b51316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+  { name: "Discord", icon: MessageCircle, url: "https://discordapp.com/users/fr3d3" },
 ]
 
 const ContactLinks = () => {
   const [copySuccess, setCopySuccess] = useState("")
 
   const copyEmail = async () => {
-    const email = "frederik@example.com"
+    const email = "frederikkoch@proton.me"
     try {
       await navigator.clipboard.writeText(email)
       setCopySuccess("Email copied!")

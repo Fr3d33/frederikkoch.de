@@ -1,10 +1,10 @@
 const skills = [
-  { name: "JavaScript", level: 90 },
-  { name: "React", level: 85 },
+  { name: "JavaScript", level: 60 },
+  { name: "Python", level: 25 },
   { name: "Node.js", level: 80 },
-  { name: "TypeScript", level: 75 },
-  { name: "Python", level: 70 },
-  { name: "SQL", level: 65 },
+  { name: "TypeScript", level: 20 },
+  { name: "Rust", level: 8 },
+  { name: "Flutter", level: 20 },
 ]
 
 const Skills = () => {

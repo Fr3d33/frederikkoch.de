@@ -1,0 +1,24 @@
+.cursor-effect {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 30;
+  transition: duration-300;
+}
+
+@media (min-width: 1024px) {
+  .cursor-effect {
+    position: fixed;
+  }
+}
+
+.cursor-effect::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--cursor-background);
+}

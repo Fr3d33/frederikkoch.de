@@ -52,7 +52,14 @@ const Header = () => {
   )
 }
 
-const NavLink = ({ children, onClick }) => (
+import { ReactNode, MouseEventHandler } from "react"
+
+interface NavLinkProps {
+  children: ReactNode
+  onClick: MouseEventHandler<HTMLButtonElement>
+}
+
+const NavLink = ({ children, onClick }: NavLinkProps) => (
   <button onClick={onClick} className="text-muted-foreground hover:text-foreground transition-colors">
     {children}
   </button>
