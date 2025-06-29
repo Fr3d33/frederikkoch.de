@@ -1,9 +1,15 @@
 import { ArrowRight } from "lucide-react"
+import ContactLinks from "@/components/ContactLinksIntroduction"
 
 const Introduction = () => {
   return (
     <section id="about" className="min-h-[calc(100vh-4rem)] flex flex-col justify-center">
-      <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in text-foreground">Hi, I'm Frederik Koch</h1>
+      <div className="flex items-center justify-between mb-6">
+        <h1 className="text-4xl md:text-6xl font-bold animate-fade-in text-foreground">
+          Hi, I'm Frederik Koch
+        </h1>
+        <ContactLinks />
+      </div>
       <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-in animation-delay-200">
         I'm a tech enthusiast with experience in programming. I develop software, build electronic projects, and continuously explore new technologies.
       </p>
