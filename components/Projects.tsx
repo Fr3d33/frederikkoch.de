@@ -33,7 +33,7 @@ const projects = [
   {
     title: "File to Image",
     description: "file_to_image ist ein Tool, das es ermöglicht, Dateien automatisch in Bilder umzuwandeln, um sie visuell darzustellen oder weiterzuverarbeiten.",
-    image: "",
+    image: "/file_to_image.png?height=300&width=400",
     technologies: ["Python", "Pillow"],
     githubUrl: "https://github.com/Fr3d33/file_to_image",
   },

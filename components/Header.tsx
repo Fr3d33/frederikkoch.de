@@ -22,7 +22,7 @@ const Header = () => {
           onClick={() => scrollToSection("about")}
           className="text-2xl font-bold text-foreground hover:text-primary transition-colors"
         >
-          FK
+          Frederik K.
         </button>
         <nav className="hidden md:flex space-x-6 items-center">
           <NavLink onClick={() => scrollToSection("about")}>About</NavLink>

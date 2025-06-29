@@ -93,3 +93,9 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.theme-transitioning *,
+.theme-transitioning *::before,
+.theme-transitioning *::after {
+  transition: none !important;
+}
