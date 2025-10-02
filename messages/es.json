@@ -1,0 +1,52 @@
+{
+  "Header": {
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "Intro": {
+    "title": "Hola, soy {name}",
+    "tagline": "Entusiasta de la tecnología con experiencia en programación. Desarrollo software, construyo proyectos electrónicos y exploro continuamente nuevas tecnologías.",
+    "cta": "Ver mis trabajos"
+  },
+  "Projects": {
+    "title": "Proyectos",
+    "viewOnGitHub": "Ver en GitHub",
+    "items": {
+      "objectTracking": {
+        "title": "Object Tracking",
+        "description": "Proyecto en Python que utiliza YOLO y ByteTrack para el seguimiento de objetos en tiempo real con trayectorias visualizadas e IDs dinámicos."
+      },
+      "megakino": {
+        "title": "Megakino URL Finder",
+        "description": "Herramienta que busca y extrae automáticamente URLs de páginas de Megakino para acceso rápido a películas y series."
+      },
+      "buecherei": {
+        "title": "Backend Biblioteca",
+        "description": "Solución backend para gestionar libros, usuarios y procesos de préstamo para una biblioteca digital."
+      },
+      "fileToImage": {
+        "title": "Archivo a Imagen",
+        "description": "Herramienta que convierte archivos en imágenes para visualizarlos o procesarlos."
+      }
+    }
+  },
+  "Skills": {
+    "title": "Habilidades"
+  },
+  "Contact": {
+    "title": "Contacto",
+    "copied": "¡Correo copiado!",
+    "copyFailed": "Fallo al copiar el correo"
+  },
+  "Footer": {
+    "powered": "Con la tecnología de Lucide-React y Radix UI",
+    "impressum": "Aviso legal"
+  },
+  "Impressum": {
+    "title": "Aviso legal",
+    "contact": "Contacto",
+    "source": "Fuente"
+  }
+}

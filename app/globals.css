@@ -108,3 +108,54 @@ html {
   background: radial-gradient(600px circle at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.06), transparent 40%);
 }
 
+/* Scroll progress bar */
+.scroll-progress { line-height: 0; }
+.scroll-progress progress {
+  appearance: none;
+  width: 100%;
+  height: 2px;
+  display: block;
+}
+.scroll-progress progress::-webkit-progress-bar {
+  background: transparent;
+}
+.scroll-progress progress::-webkit-progress-value {
+  background: hsl(var(--primary));
+  transition: width 150ms linear;
+}
+.scroll-progress progress::-moz-progress-bar {
+  background: hsl(var(--primary));
+  transition: width 150ms linear;
+}
+
+/* Magnetic hover utility: slight translate on hover */
+.magnetic:hover {
+  transform: translateY(-2px);
+}
+.magnetic {
+  transition: transform 150ms ease;
+}
+
+/* Skill bars without inline styles: map data-pct to width in 5% steps */
+[data-pct="0"] { width: 0% }
+[data-pct="5"] { width: 5% }
+[data-pct="10"] { width: 10% }
+[data-pct="15"] { width: 15% }
+[data-pct="20"] { width: 20% }
+[data-pct="25"] { width: 25% }
+[data-pct="30"] { width: 30% }
+[data-pct="35"] { width: 35% }
+[data-pct="40"] { width: 40% }
+[data-pct="45"] { width: 45% }
+[data-pct="50"] { width: 50% }
+[data-pct="55"] { width: 55% }
+[data-pct="60"] { width: 60% }
+[data-pct="65"] { width: 65% }
+[data-pct="70"] { width: 70% }
+[data-pct="75"] { width: 75% }
+[data-pct="80"] { width: 80% }
+[data-pct="85"] { width: 85% }
+[data-pct="90"] { width: 90% }
+[data-pct="95"] { width: 95% }
+[data-pct="100"] { width: 100% }
+

@@ -2,6 +2,7 @@
 
 import { Github, Linkedin, Mail } from "lucide-react"
 import { useState } from "react"
+import { useTranslations } from "next-intl"
 
 const contactLinks = [
   { name: "GitHub", icon: Github, url: "https://github.com/Fr3d33" },
@@ -10,21 +11,22 @@ const contactLinks = [
 
 const ContactLinks = () => {
   const [copySuccess, setCopySuccess] = useState("")
+  const t = useTranslations('Contact')
 
   const copyEmail = async () => {
     const email = "frederikkoch@proton.me"
     try {
       await navigator.clipboard.writeText(email)
-      setCopySuccess("Email copied!")
+  setCopySuccess(t('copied'))
       setTimeout(() => setCopySuccess(""), 2000)
     } catch (err) {
-      setCopySuccess("Failed to copy email")
+  setCopySuccess(t('copyFailed'))
     }
   }
 
   return (
     <section id="contact" className="scroll-mt-16">
-      <h2 className="text-3xl font-bold mb-8 text-foreground">Contact</h2>
+  <h2 className="text-3xl font-bold mb-8 text-foreground">{t('title')}</h2>
       <div className="flex justify-center space-x-8">
         {contactLinks.map((link) => (
           <a
@@ -40,7 +42,7 @@ const ContactLinks = () => {
         ))}
         <button
           onClick={copyEmail}
-          className="text-foreground hover:text-primary transition-colors relative"
+          className="text-foreground hover:text-primary transition-colors relative magnetic"
           aria-label="Copy Email"
         >
           <Mail size={32} />
