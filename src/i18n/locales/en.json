@@ -1,0 +1,52 @@
+{
+  "Header": {
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "Intro": {
+    "title": "Hi, I'm {{name}}",
+    "tagline": "I'm a tech enthusiast with experience in programming. I develop software, build electronic projects, and continuously explore new technologies.",
+    "cta": "View my work"
+  },
+  "Projects": {
+    "title": "Projects",
+    "viewOnGitHub": "View on GitHub",
+    "items": {
+      "objectTracking": {
+        "title": "Object Tracking",
+        "description": "A Python project using YOLO and ByteTrack for real-time object tracking with visualized trajectories and dynamic ID labels."
+      },
+      "megakino": {
+        "title": "Megakino URL Finder",
+        "description": "A tool that automatically searches and extracts Megakino page URLs to give users quick access to movies and series."
+      },
+      "buecherei": {
+        "title": "Library Backend",
+        "description": "A backend solution for managing books, users and lending processes for a digital library."
+      },
+      "fileToImage": {
+        "title": "File to Image",
+        "description": "A tool that converts files into images to visualize or further process them."
+      }
+    }
+  },
+  "Skills": {
+    "title": "Skills"
+  },
+  "Contact": {
+    "title": "Contact",
+    "copied": "Email copied!",
+    "copyFailed": "Failed to copy email"
+  },
+  "Footer": {
+    "powered": "Powered by Lucide-React & Radix UI",
+    "impressum": "Impressum"
+  },
+  "Impressum": {
+    "title": "Impressum",
+    "contact": "Contact",
+    "source": "Source"
+  }
+}

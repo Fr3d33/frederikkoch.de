@@ -1,0 +1,52 @@
+{
+  "Header": {
+    "about": "Über mich",
+    "projects": "Projekte",
+    "skills": "Fähigkeiten",
+    "contact": "Kontakt"
+  },
+  "Intro": {
+    "title": "Hi, ich bin {{name}}",
+    "tagline": "Ich bin Tech-Enthusiast mit Erfahrung im Programmieren. Ich entwickle Software, baue Elektronikprojekte und entdecke kontinuierlich neue Technologien.",
+    "cta": "Zu meinen Projekten"
+  },
+  "Projects": {
+    "title": "Projekte",
+    "viewOnGitHub": "Auf GitHub ansehen",
+    "items": {
+      "objectTracking": {
+        "title": "Object Tracking",
+        "description": "Ein Python-Projekt, das YOLO und ByteTrack zur Echtzeit-Objektverfolgung nutzt und Bewegungsverläufe mit dynamischen IDs visualisiert."
+      },
+      "megakino": {
+        "title": "Megakino URL Finder",
+        "description": "Ein Tool, das automatisch Megakino-URLs findet und extrahiert, um schnellen Zugriff auf Filme und Serien zu ermöglichen."
+      },
+      "buecherei": {
+        "title": "Bücherei Backend",
+        "description": "Eine Backend-Lösung zur Verwaltung von Büchern, Benutzern und Ausleihprozessen für eine digitale Bibliothek."
+      },
+      "fileToImage": {
+        "title": "Datei zu Bild",
+        "description": "Ein Tool, das Dateien in Bilder umwandelt, um sie visuell darzustellen oder weiterzuverarbeiten."
+      }
+    }
+  },
+  "Skills": {
+    "title": "Fähigkeiten"
+  },
+  "Contact": {
+    "title": "Kontakt",
+    "copied": "E-Mail kopiert!",
+    "copyFailed": "Kopieren fehlgeschlagen"
+  },
+  "Footer": {
+    "powered": "Powered by Lucide-React & Radix UI",
+    "impressum": "Impressum"
+  },
+  "Impressum": {
+    "title": "Impressum",
+    "contact": "Kontakt",
+    "source": "Quelle"
+  }
+}
